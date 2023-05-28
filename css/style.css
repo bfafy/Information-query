@@ -1,0 +1,79 @@
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f2f2f2;
+			margin: 0;
+			padding: 0;
+		}
+
+		.container {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			width: 400px;
+			padding: 20px;
+			background-color: #fff;
+			box-shadow: 0 0 10px rgba(0,0,0,0.3);
+		}
+
+		h1 {
+			color: #444;
+			text-align: center;
+		}
+
+		form {
+			display: flex;
+			flex-direction: column;
+		}
+
+		label {
+			margin-top: 10px;
+			color: #555;
+			font-weight: bold;
+			font-size: 14px;
+		}
+
+		input[type="text"], input[type="password"] {
+              padding: 10px;
+              border: none;
+              border-radius: 5px;
+              background-color: #e0e0e0; /* 将背景颜色从 #f8f8f8 修改为 #e0e0e0 */
+              font-size: 14px;
+              margin-bottom: 10px;
+              width: 100%;
+		}
+
+		input[type="submit"] {
+			padding: 10px;
+			border: none;
+			border-radius: 5px;
+			background-color: #4CAF50;
+			color: #fff;
+			font-weight: bold;
+			font-size: 16px;
+			cursor: pointer;
+		}
+
+		input[type="submit"]:hover {
+			background-color: #3e8e41;
+		}
+
+		.error {
+			color: #f00;
+			font-size: 30px;
+		}
+		.captcha-container {
+            display: flex;
+             align-items: center;
+        }
+
+        .captcha-container input[type="text"] {
+              margin-right: 40px;
+              width: 150px;
+        }
+
+        .captcha-container img {
+              width: 150px;
+              height: 80px;
+              cursor: pointer;
+        }
